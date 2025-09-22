@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int principal,rate,time,si;
+printf("Enter principal :");
+scanf("%f",&principal);
+printf("Enter rate :");
+scanf("%f",&rate);
+printf("Enter time:");
+scanf("%f",&time);
+float si = (principal * rate * time)/100;
+printf("The Si is : %f",si);
+return 0;
+}
