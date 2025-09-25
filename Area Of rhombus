@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+float p,q,area;
+printf("Enter p:");
+scanf("%f",&p);
+printf("Enter q:");
+scanf("%f",&q);
+area = (p*q)/2;
+printf("area of rhombus:%f",area);
+return 0;
+}
