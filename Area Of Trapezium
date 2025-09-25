@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+float base,height,a,area;
+printf("Enter a:"):
+scanf("%f",&a);
+printf("Enter base:");
+scanf("%f",&base);
+printf("Enter height:");
+scanf("%f",&height);
+area = 0.5*(a+b)*h;
+printf("area of trapezium:%f",area);
+return 0;
+}
