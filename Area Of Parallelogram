@@ -1,0 +1,13 @@
+#include<stdio.h>
+int maim()
+{
+float base,height,area;
+printf("Enter base: ");
+scanf("%f",&base);
+printf("Enter height:");
+scanf("%f",&height);
+area = base*height;
+printf("area of parallelogram:%f",area);
+return 0;
+
+}
