@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+printf("Enter your marks (out of 100)");
+scanf("%d",&marks);
+if(marks >=90 && marks <=100){
+printf("Grade : A \n");
+}
+else if (marks >= 75 && marks <90){
+printf("Grade : c \n")
+}
+else if(marks >=50  && marks < 75){
+ printf("Grade : c \n");
+}
+else if (marks >= 0 && marks >50){
+printf("Grade : fail \n");
+}
+else {
+printf("Please enter between 0 and 100\n");
+
+}
+
+
+
+return 0;
+}
