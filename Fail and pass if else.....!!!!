@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("Enter your marks (out of 100)");
+scanf("%d",&>=40);
+if(marks >= 40){
+printf("Your are pass!\n");
+}
+else { 
+printf("you are fail \n");
+}
+
+return 0;
+}
